@@ -1,0 +1,16 @@
+cd path/to/smart_building_app
+# Step 1: Initialize Git
+git init
+
+# Step 2: Add all files
+git add .
+
+# Step 3: Commit the files
+git commit -m "Initial commit"
+
+# Step 4: Add GitHub repo as remote
+git remote add origin https://github.com/YOUR_USERNAME/smart-building-app.git
+
+# Step 5: Push to GitHub
+git branch -M main
+git push -u origin main
